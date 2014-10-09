@@ -1,0 +1,15 @@
+{% extends '::base.html.twig' %}
+
+{% block body -%}
+	<h1>Book #{{ book.id }} - {{ book.title }}</h1>
+
+	<h3>No. of Pages: {{ book.pages }}</h3>
+
+	<p>{{ book.description }}</p>
+
+	<ul>
+		<li><a href="{{ path('book') }}">Book Manager</a></li>
+		<li><a href="{{ path('book_edit', {'id': book.id}) }}">Edit Book</a></li>
+		<li>{{ form(delete_form) }}</li>
+	</ul>
+{% endblock %}

@@ -1,0 +1,7 @@
+parameters:
+#    bookkeeper_hello_world.example.class: Bookkeeper\HelloWorldBundle\Example
+
+services:
+#    bookkeeper_hello_world.example:
+#        class: %bookkeeper_hello_world.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

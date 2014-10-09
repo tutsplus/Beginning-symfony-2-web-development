@@ -1,0 +1,11 @@
+{% extends '::base.html.twig' %}
+
+{% block body -%}
+	<h1>Edit Book</h1>
+
+	{{ form(form) }}
+
+	<ul>
+		<li><a href="{{ path('book') }}">Book Manager</a></li>
+	</ul>
+{% endblock %}

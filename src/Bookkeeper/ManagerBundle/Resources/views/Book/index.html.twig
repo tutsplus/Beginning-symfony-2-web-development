@@ -1,0 +1,16 @@
+{% extends '::base.html.twig' %}
+
+{% block body -%}
+	<h1>Book Manager</h1>
+
+	<ul>
+		{% for book in books %}
+			<li>
+				{{ book.title }} - 
+				<a href="{{ path('book_show', {'id': book.id}) }}">View Book</a>
+			</li>
+		{% endfor %}
+	</ul>
+
+	<p><a href="{{ path('book_new') }}">Create New Book</a></p>
+{% endblock %}
