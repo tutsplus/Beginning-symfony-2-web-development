@@ -1,13 +1,12 @@
 
 
-### Tuts+ Course: Beginning Symfony2 Web Development
+### Tuts+ Course: Getting Started With Symfony 2
 **Instructor: Andrew Perkins**
 
 Symfony 2 is one of the most popular, modern PHP frameworks. It has the advantages of being modular, extensible and feature complete. Beginning Symfony 2 Web Development is designed for first time users of the framework, walking you through all its basic coding features. We'll cover all the topics required to get started, such as bundle, templating with layouts, routing, building forms with validation, as well as how to build a full CRUD app with database interaction. By the end of the course, you'll have the fundamental skills necessary to use the Symfony 2 framework to build basic, database-driven web applications.
 
-Source files for the Tuts+ course: [Beginning Symfony2 Web Development](https://courses.tutsplus.com/courses/)
+Source files for the Tuts+ course: [Getting Started With Symfony 2](https://courses.tutsplus.com/courses/getting-started-with-symfony-2)
 
-**Available on Tuts+ October 2014**
 
 
 Symfony Standard Edition
